@@ -1,0 +1,29 @@
+{
+  "name": "mature-pastry",
+  "version": "0.0.0",
+  "description": "No description",
+  "author": null,
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "dependencies": {
+    "expo": "^31.0.0",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz",
+    "clamp-js": "^0.7.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "react-native-android-speech": "^0.0.6",
+    "react-native-flip-card": "^3.4.1",
+    "react-native-modalbox": "^1.4.2",
+    "react-native-paper": "2.2.8",
+    "react-native-progress": "3.5.0",
+    "react-native-radio-buttons": "^1.0.0",
+    "react-native-router-flux": "^4.0.6",
+    "react-native-simple-store": "^1.3.0",
+    "react-native-swiper": "^1.5.4",
+    "react-native-vector-icons": "6.1.0",
+    "react-navigation": "*",
+    "react-navigation-deprecated-tab-navigator": "*",
+    "stack-card-z": "1.0.7"
+  }
+}

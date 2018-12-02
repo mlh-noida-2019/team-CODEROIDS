@@ -59,7 +59,7 @@ export default class PreviousCards extends Component {
                                                 fontSize: 12,
                                                 textAlign: 'center',
                                                 fontStyle: 'italic'
-                                            }}>{'Synonyms : ' + word.item.synonyms.join(", ")}</Text>
+                                            }}>{'Example : ' + word.item.example.join(", ")}</Text>
                                         </View>
                                     </FlipCard>
                                 )

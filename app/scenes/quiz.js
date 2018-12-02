@@ -35,12 +35,12 @@ export default class Quiz extends Component {
                     if(card.name){
                         let tempCard = {};
                         tempCard.question = card.name;
-                        tempCard.answer = _.sample(card.synonyms);
+                        tempCard.answer = _.sample(card.example);
                         tempCard.options = [];
                         tempCard.options.push(tempCard.answer);
                         let otherCards = _.filter(todayCards, function(o) { return o.name != card.name; });
                         _.each(otherCards,function(otherCard){
-                            let answer = _.sample(otherCard.synonyms);
+                            let answer = _.sample(otherCard.example);
                             if(answer){
                                 tempCard.options.push(answer);
                             }
